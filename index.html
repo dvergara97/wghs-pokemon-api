@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon API Activity</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1>Pokemon API Activity</h1>
+
+<div>
+  <label for="pokemonNumber">Enter a number (1-1000):</label>
+  <input type="number" id="pokemonNumber" min="1" max="1000">
+  <button onclick="fetchPokemon()">Fetch Pokemon</button>
+</div>
+
+<div id="pokemonContainer">
+  <!-- Pokemon cards will be added here dynamically -->
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
